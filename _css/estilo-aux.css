@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+/* cabeçalho das paginas */
+header#cabecalho{
+    width: 100%;
+    margin: -5px auto 0px auto;
+    padding: 1px 0px 1px 0px;
+    background-color: #696969;
+    border-radius: 5px;
+}
+
+header h1 a{
+    font-size: 20px;
+    margin-left: 155px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+#menu ul{
+    list-style:none;
+    margin-top: -40px;
+    margin-left: 370px;
+    padding-bottom: 10px;
+    
+}
+ #menu ul li{
+    display: inline;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-weight: bold;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#menu ul li:hover {
+    background-color:#808080;
+    color: #6D6D6D;
+    text-decoration: underline;
+    border-bottom:3px solid #EA0000;
+}
+
+/* Corpo da página */
+
+div#container{
+    width: 80%;
+    height: 550px;
+    background-color: #D3D3D3;
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #696969;
+    border-left: 5px solid #696969;
+    border-right: 5px solid #696969;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px
+}
+
+div#container h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+    margin-top: -2px;
+    text-shadow: 2px 3px #696969;
+}
+div#container h2{
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom: 65px;
+}
+
+div#container a{
+    background-color: #DAA520;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Rokkitt', serif;
+}
+
+div#container a#cprop{
+    margin-right: 15px;
+}
+
+img#img-prop{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 15px;
+    left: -5px; 
+    
+}
+img#img-veic{
+    width: 45px;
+    height: 45px;;
+    position: relative;
+    top: 15px;
+    left: -5px;
+}
+
+/* Propriedades do DIV Container */
+
+div#form-item{
+    width: 80%;
+    height: 70px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+label{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+div#title{
+    margin-left: 76px;
+    margin-top: -35px;
+}
+
+input{
+    width: 900px;
+    height: 40px;
+    margin-top: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 15px;
+    border-radius: 7px;
+    border: none;
+}
+
+input:focus{
+    border-radius:15px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -webkit-box-shadow: 0px 0px 15px 1px #87CEFA;
+    -moz-box-shadow: 0px 0px 15px 1px #87CEFA;
+    box-shadow: 0px 0px 5px 0px #87CEFA;
+    border:1px solid #1E90FF;
+    outline:none; 
+}
+
+button{
+    margin-left: 80px;
+    margin-top: 30px;
+    border: none;
+    height: 50px;
+    padding: 0px 30px;
+}
+
+button#btn-cadast{
+    background-color: rgba(65,105,225,.7);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+   
+    
+}
+button#btn-cancel{
+    background-color: rgba(165, 42, 42, .7);
+    margin-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 1px 1px #000000;
+}
+
+div#title img{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    width: 60px;
+}
+
+div#title h1{
+    position: relative;
+    left: 85px;
+    bottom: 60px;
+    margin-bottom: -15px;
+}
+
+/* Cadastrar-veiculo */
+
+select#lista-veic{
+    position: relative;
+    left: 79px;
+    width: 915px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+}
+label#lbl-prop{
+    position: relative;
+    left: 79px;
+}
+
+/* Proprietarios */
+
+table#table-prop{
+    border-left: 1px solid #696969;
+    border-right: 1px solid #696969;
+    border-bottom: 1px solid #696969;
+    width: 700px;
+    position: relative;
+    left: 80px;
+    background-color: #DCDCDC;
+    font-size: 12px;
+}
+
+th{
+    border-bottom: 1px solid #696969;
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    border-right: 1px solid #696969;    
+}
+
+div#panel-body{
+    width: 698px;
+    position: relative;
+    left: 80px;
+    border: 1px solid #696969;
+    height: 105px;
+    background-color: #DCDCDC;
+}
+input#fq{
+    width: 230px;
+    border-radius: 2px;
+    position: relative;
+    top: 45px;
+    left: -85px;
+    box-shadow: 0px 0px 5px 2px #696969;
+}
+label#lbl-search{
+    position: relative;
+    left: 18px;
+    bottom: 7px;
+    width: 700px;
+    color: black;
+}
+
+div#form-group{
+    border-bottom: 1px solid #696969;
+    height: 40px;
+    background-color: #C0C0C0;
+}
+button#btn-search{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    left: 175px;
+    bottom: 18px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
+th{
+    text-align: left;
+    padding-left: 10px;
+}
+
+tbody{
+    background-color: #C0C0C0;
+}
+
+/* Veiculos */
+
+input#fqq{
+    width: 230px;
+    border-radius: 2px;
+    position: relative;
+    top: 45px;
+    left: -48px;
+    box-shadow: 0px 0px 5px 2px #696969;
+
+}
+
+
+
+
+

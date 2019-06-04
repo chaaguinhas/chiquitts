@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+    /* Corpo do login */
+    
+    body {
+        width: 800px;
+        background-image: url("../_imagens/blueFundo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        position: relative;
+    }
+    
+    /* Parte do container ou o formulario */
+    
+    div#nameProject {
+        text-align: center;
+        margin-top: 100px;
+        font-family: 'Kanit', sans-serif;
+        font-size: 25px;
+        color: #B0E0E6;
+        letter-spacing: 3px;
+    }
+    
+    div#container h1 {
+        text-align: center;
+        font-family: 'Baloo Bhai', cursive;
+        background-color: rgba(135, 206, 235, );  
+        margin-bottom: 0px;
+        border-radius: 5px 5px 0px 0px;
+        color:white;
+        letter-spacing: 2px;
+    }
+    
+    div#container {
+        width: 411px;
+        margin-left: 200px;
+        background-color: rgba(135, 206, 235, .1);
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    div#container form {
+        width: 400px;
+        height: 350px;
+        
+    }
+    /* Os campos do formulário */
+    
+    fieldset {
+        height: 250px;
+        padding-left: 14px;
+        padding-top: 19px;
+        border:none;
+    }
+    
+    fieldset input#lemail,
+    #lsenha {
+        margin-top: 4px;
+        width: 345px;
+        border-radius: 5px 5px;
+        border: none;
+        padding: 8px 0px 8px 34px;
+        background-color: rgba(135, 206, 235, .3)
+        
+    }
+    
+    input#lemail{
+        background-image: url(../_imagens/icone-email.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+    }
+    input#lsenha{
+        background-image: url(../_imagens/icone-senha.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+    }
+    input#lemail:focus{
+        border-radius:15px;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 0px 15px 1px #87CEFA;
+        -moz-box-shadow: 0px 0px 15px 1px #87CEFA;
+        box-shadow: 0px 0px 5px 0px #87CEFA;
+        border:1px solid #1E90FF;
+        outline:none; 
+    }
+    input#lsenha:focus{
+        border-radius:15px;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 0px 15px 1px #87CEFA;
+        -moz-box-shadow: 0px 0px 15px 1px #87CEFA;
+        box-shadow: 0px 0px 5px 0px #87CEFA;
+        border:1px solid #1E90FF;
+        outline:none; 
+    }
+
+    ::placeholder{
+        color: black;
+        font-size: 15px;
+    }
+    
+    fieldset p#user{
+        position: relative;
+        top: 30px;
+        text-align: center;
+        right: 30px;
+        color: rgba(135, 206, 235, 1);
+        font-weight: bold;
+    }
+    fieldset p#login{
+        position: relative;
+        top: 25px;
+        left: 60px;
+        margin-top: -10px;
+        color: rgba(135, 206, 235, 1);
+    }
+    
+    fieldset label#checkBox {
+        width: 100px;
+        display: block;
+        float: left;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    
+    input.campo {
+        margin-bottom: 15px;
+    }
+    
+    input#lsubmit {
+        display: block;
+        float: right;
+    }
+
+    label#email,#senha{
+        color:white;
+    }
+    
+    /* Rodapé do login */
+
+    footer {
+        margin-left: 190px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    a{
+      
+        display: block;
+        float: left;
+        margin-top: 3px;
+    }
+    img#whats{
+        margin-top: 3px;
+    }
+
+    span#scont {
+        display: block;
+        margin-top: 25px;
+        float:left;
+    }
+    
+
+    
